@@ -1,2 +1,337 @@
-<h1>Mi portfolio</h1>
-<p> modificacion en el repositorio remoto</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS Only-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/3a1cfc5ac9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assests/css/styles.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg bg-navColor">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assests/img/Logo.png" alt="Logo Argentina Programa" class="logo">
+      </a>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><a href="https://www.linkedin.com/in/ekene-chidume-545b759a/" target="_blank"><i
+              class="fa fa-brands fa-linkedin-in fa-1x text-white"></i></a></li>
+        <li class="list-group-item"><a href="https://github.com/Ekene97" target="_blank"></a><i
+            class="fa fa-brands fa-github-square fa-1x text-white"></i></a></li>
+        <!-- Button trigger modal / para abrir ventana de inicio sesion -->
+        <li class="list-group-item" data-bs-toggle="modal" data-bs-target="#inicioSesion">
+          <i class="fa fa-solid fa-user-lock text-white"></i>
+        </li>
+  </nav>
+  <!--Seccion del banner-->
+  <section>
+    <div id="inicio">
+      <div class="banner">
+        <h3 class="text-white text-center intro">
+          Hola, soy</h3>
+        <h1 class="text-white text-center intro">
+          Ekene Celina Chidume</h1>
+        <h2 class="text-white text-center intro">
+          Desarrollador Full Stack Jr.</h2>
+      </div>
+      <div>
+        <div class="fotoDePerfil">
+          <img src="assests\img\FotoPerfil.jpg" alt="foto de perfil" class="rounded-circle img-fluid perfil">
+        </div>
+        <div class="pres text-center boxed mt-5">
+          <h2 class="titulo">SOBRE MI</h2>
+          <div>
+            <h4>Soy estudiante ingresante en la carrera de Ingenieria Informatica en la Universidad Nacional de La
+              Matanza.
+              Actualmente tengo 25 años.</h4>
+            <h4>Mi objetivo es crecer profesionalmente día a día logrando adquirir cada vez más conocimientos y
+              aptitudes que me formen como profesional, buscando alcanzar los objetivos que tengo propuestos para mi futuro.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Experiencia-->
+  <section class="text-center rightLine mt-5">
+    <h2 class="titulo">EXPERIENCIA</h2>
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <h3>AUXILIAR DE FARMACIA</h3>
+          <h4>12/2022 a 02/2023 </h4>
+          <h4>
+            <ul class="lista">
+              <li>Atencion de Mostrador</li>
+              <li>Manejo de Caja</li>
+              <li>Control de Stock</li>
+            </ul>
+          </h4>
+        </div>
+        <div class="col">
+          <h3>LIQUIDADORA DE SUELDOS</h3>
+          <h4>09/2022 a 11/2022 </h4>
+          <h4>
+            <ul class="lista">
+              <li>Liquidar Sueldos</li>
+              <li>Presentar Declaraciones a AFIP</li>
+              <li>Manejo Catedral</li>
+            </ul>
+          </h4>
+        </div>
+        <div class="col">
+          <h3>OPERADORA DE CALLCENTER</h3>
+          <h4>05/2020 a 09/2022 </h4>
+          <h4>
+            <ul class="lista">
+              <li>Contactar Potenciales Clientes</li>
+              <li>Gestion Traspaso de Obras Sociales</li>
+              <li>Organizacion de Reuniones</li>
+            </ul>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Educacion-->
+  <section class="text-center leftLine mt-5">
+    <h2 class="titulo">EDUCACION</h2>
+    <div class="card eduCard mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="assests\img\unlam.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mt-3 mb-3 text-white">UNIVERSIDAD NACIONAL DE LA MATANZA</h5>
+            <p class="card-text text-white">INGENIERIA EN INFORMATICA</p>
+            <p class="card-text"><small class="text-muted">2020 - ACTUALIDAD</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card eduCard mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="assests\img\IUNA.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mt-3 mb-3 text-white">UNIVERSIDAD NACIONAL DE LAS ARTES</h5>
+            <p class="card-text text-white">PROFESORADO EN ARTES VISUALES</p>
+            <p class="card-text"><small class="text-muted">2015 - 2019</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card eduCard mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-3">
+          <img src="assests\img\ort.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mt-3 mb-3 text-white">ESCUELA TECNICA ORT</h5>
+            <p class="card-text text-white">BACHILLERATO TECNICO CON ORIENTACION EN CONSTRUCCIONES</p>
+            <p class="card-text"><small class="text-muted">2015</small></p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--Hard and soft skills-->
+  <section class="text-center rightLine mt-5">
+    <h2 class="titulo">HARD AND SOFT SKILLS</h2>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:85%">Resolucion de Problemas</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:95%">Autodisciplina</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:99%">Ingles</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:80%">Adobe Photoshop</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:100%">Microsoft Office</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:75%">Adobe Illustrator</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:20%">Git/Github</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:40%">Visual Studio Code</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:70%">HTML</div>
+      </div>
+    </div>
+    <div class="w3-container mb-5">
+      <div class="w3-grey w3-round-xlarge">
+        <div class="w3-container w3-pink w3-round-xlarge" style="width:65%">CSS</div>
+      </div>
+    </div>
+  </section>
+  <!--Proyectos-->
+  <section class="text-center leftLine mt-5">
+    <h2 class="titulo">PROYECTOS</h2>
+    <div id="projects">
+      <a href="https://codepen.io/EkeneC/full/wbEKNZ" target="_blank" class="project project-tile">
+        <img class="project-pic image-size" src="assests\img\Sonata.png" alt="project">
+        <label class="project-title mt-4">Tribute Page</label></a>
+      <a href="https://codepen.io/EkeneC/full/KLrVzO" target="_blank" class="project project-tile">
+        <img class="project-pic image-size" src="assests\img\Form.png" alt="project">
+        <label class="project-title mt-4">Form Page</label></a>
+      <a href="https://codepen.io/EkeneC/full/oRPNNY" target="_blank" class="project project-tile">
+        <img class="project-pic image-size" src="assests\img\Pixar.png" alt="project">
+        <label class="project-title mt-4">Pixar Theory</label></a>
+      <a id="profile-link" href="https://codepen.io/collection/nZJGmz/" class="show-all" target="_blank">Show all</a>
+    </div>
+  </section>
+
+
+  <!-- Modal / el login-->
+  <div class="modal fade" id="inicioSesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar Sesion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <!--Formulario de inicio-->
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">No compartiremos tu informacion con nadie.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+      <h4 class="text-center text-muted">Copyright 2023 Ekene Celina Chidume</h4>
+  </footer>
+
+
+
+  <!--JavaScript Bundle with Popper-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+
+<!---QUEDAMOS EN UNA HORA 15 MINUTOS DEL 1ER VIDEO, ESTABA POR HACER QUE LOS BOTONES DE LAS REDES SOCIALES
+ABRAN REALMENTE LAS REDES SOCIALES-->
+
+<!-- MIRAR LA PARTE EN LA QUE PONE EL BANNER DE FONDO PORQUE NO FUNCA ---- PARTE CSS-->
+
+<!-- TERMINE EL PRIMER VIDEO, ME QUEDE TRATANDO DE QUE LA IMAGEN OVERLAPEE CON EL BANNER, PERO NO ESTOY SEGURA COMO SE HACE 
+CHECKEAR EN MASTERCLASS QUIZAS AHI EXPLICAN COMO SE HACE
+AGREGUE COSAS QUE VI EN INTERNET, FIJARSE SI HAY QUE BORRAR ALGO-->
+
+<!--TRABAJANDO EN LINEA 75, QUERIA HACER UNA LINEA ONDEADA, PERO NO PUEDO. NO ESTOY SIGUENDO VIDEOS, VOY A VER SI PUEDO DESCARGAR
+LA EXTENSION PARA GUARDAR PESTAÑAS-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--CHECKEANDO DE INTERNET
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="banner2">
+        <h3 class="text-white text-center intro">
+        Hola, soy</h3>
+        <h1 class="text-white text-center intro">
+        Ekene Celina Chidume</h1>
+        <h2 class="text-white text-center intro">
+        Desarrollador Full Stack Jr.</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row gx-5">
+        <div class="about-me col-lg-12">
+          <div>
+            <div class="row gx-5">
+              <div class="col-lg-5 justify-content-center position-relative">
+                <img src="assests\img\FotoPerfil.jpg" alt="foto de perfil" class="rounded-circle img-fluid perfil">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center">
+                <h4 class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptate, impedit omnis,
+                  reiciendis minima laudantium ipsam porro quo alias ex ad. Harum animi at veniam provident
+                  iure tempore nesciunt obcaecati!</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+-->

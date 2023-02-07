@@ -1,0 +1,202 @@
+.bg-navColor{
+   background-image: linear-gradient(
+    rgba(74, 67, 57, 0.85),
+    rgb(43, 33, 19, 0.85)
+  ), url(../img/Banner.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+  margin-bottom: 0 !important;
+}
+
+.logo{
+  height: 70px;
+  
+}
+.list-group{
+  --bs-list-group-bg:transparent;
+}
+/*.letra-invert{
+  filter: invert();
+  -webkit-filter: invert();
+  -moz-filter: invert();
+}*/
+
+i.fa.fa-brands.fa-linkedin-in.fa-1x.text-white:hover{
+  --bs-text-opacity:1;
+  color:rgb(147,117,132) !important;
+}
+i.fa.fa-brands.fa-github-square.fa-1x.text-white:hover{
+  --bs-text-opacity:1;
+  color:rgb(163,131,153) !important;
+}
+
+i.fa.fa-brands.fa-facebook.fa-1x.text-white:hover{
+  --bs-text-opacity:1;
+  color:rgb(236,184,113) !important;
+}
+
+i.fa.fa-solid.fa-user-lock.text-white:hover{
+  --bs-text-opacity:1;
+  color:rgb(222,188,107) !important;
+}
+
+.banner{
+  background-image: linear-gradient(
+    rgba(74, 67, 57, 0.7),
+    rgba(227, 194, 146,1)
+  ), url(../img/Banner.jpg);
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+  z-index: -1;
+}
+
+body{
+  background: linear-gradient(rgb(227, 194, 146) 85%, rgb(129, 134, 192));
+}
+h3.intro{
+  padding-top: 10%;
+}
+h1.intro{
+  font-size: 4rem;
+}
+
+.fotoDePerfil{
+  border-radius: 70%;
+  width: 300px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: 40%;
+  z-index: 1;
+}
+
+.pres h3{
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.boxed {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 15px 50px;
+  padding: 2%;
+  border-top: 0.5px solid rgb(155, 80, 205) ;
+  border-bottom: 8px solid rgb(155, 80, 205) ;
+  border-left: 2px solid rgb(155, 80, 205) ;
+  border-right: 1.5px solid rgb(155, 80, 205) ;
+}
+.leftLine {
+  margin-left: 2%;
+  border-radius: 15px 50px;
+  padding: 2%;
+  border-left: 4px solid rgb(155, 80, 205) ;
+  border-bottom: 4px solid rgb(155, 80, 205) ;
+}
+.rightLine {
+  margin-right: 2%;
+  border-radius: 15px 50px;
+  padding: 2%;
+  border-right: 4px solid rgb(155, 80, 205) ;
+  border-bottom: 4px solid rgb(155, 80, 205) ;
+}
+
+.titulo{
+  padding-bottom: 2%;
+}
+
+.lista{
+  text-align: left;
+}
+
+.eduCard{
+  display: flex;
+  background: linear-gradient(90deg,
+    rgb(33, 33, 31) 20%,
+    rgb(114, 117, 116));
+  border-top: 2px solid rgb(255, 255, 255) ;
+  border-bottom: 3px solid rgb(255, 255, 255) ;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255); 
+  justify-content: center;
+  flex-direction: column;
+}
+ .back{
+  --w3-container-color: black;
+ }
+/*--PROJECTS--*/
+
+.project {
+  text-decoration: none;
+  background-color: rgba(88, 79, 123, 0.5);
+  color: rgb(25, 32, 79);
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8%;
+  border: 4px solid rgb(160, 160, 186);
+  height: 400px;
+  width: 400px;
+  margin: 10px 10px;
+  text-align:center;
+}
+.image-size{
+  height: 300px;
+  width: 100%;
+}
+.project-title {
+  font-weight: bold;
+}
+
+ @media(max-width:1024px) {
+   /*small screens*/
+   .project {
+  margin: 20px 20px;
+}
+   
+  }
+/*--PROJECTS--*/
+
+.show-all {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 90px auto 10px;
+  background: rgb(224, 206, 197);
+  color: rgb(0, 65, 127);
+  font-weight: bold;
+  font-size: 1em;
+  border: 2px solid rgb(0, 65, 127);
+  border-radius: 4px;
+  cursor: pointer;
+  text-align:center;
+}
+
+
+.show-all:hover {
+  background: #E4F1FE;
+  color: black;
+}
+/*--PROJECTS--*/
+
+#footer{
+  background-color: rgba(63, 64, 72, 0.262);
+  margin-top: 30px;
+  padding-top: 1px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
